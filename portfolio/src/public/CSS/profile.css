@@ -1,0 +1,25 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile .profile_text{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.profile_subimg,.profile_about{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.subimg{
+    width: 80%;
+}
+.react-fullpage__contents{
+    justify-content: center;
+}

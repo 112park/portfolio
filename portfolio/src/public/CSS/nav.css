@@ -1,0 +1,20 @@
+.header_nav{
+position: 'fixed';
+top: 0;
+width:100%;
+z-index: 1000;
+}
+
+.nav{
+    background: #C2A327;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_profile,.nav_project,.nav_main,.nav_myskill,.nav_contact{
+    /* background: #fff; */
+    color: #fff;
+    text-decoration-line: none;
+    font-size: 20px;
+}
