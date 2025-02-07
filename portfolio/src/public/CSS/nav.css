@@ -1,12 +1,12 @@
 .header_nav{
-position: 'fixed';
+position: fixed;
 top: 0;
 width:100%;
 z-index: 1000;
 }
 
 .nav{
-    background: #C2A327;
+    background: none;
     padding: 10px;
     display: flex;
     justify-content: space-around;

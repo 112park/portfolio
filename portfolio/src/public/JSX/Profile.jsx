@@ -6,15 +6,15 @@ export default function Profile() {
 
     return(
         <div className="profile">
-            <div className="profile_text">About Me</div>
+            <h3 className="profile_title">About Me</h3>
             <div className="profile_subimg"><img src={subimg} alt="subimg" className="subimg"/></div>
             <div className="profile_about">
-                <h3>MY INTRO</h3>
-                <p>먼저 찾아주셔서 감사합니다</p>
-                <p>
+                <h4 className="profile_intro">MY INTRO</h4>
+                <p className="profile_greetings">먼저 찾아주셔서 감사합니다</p>
+                <p className="profile_text">
                     
-                    안녕하세요, 저는 프론트엔드 개발자로 성장하고자 하는 박성호입니다.
-                    저는 고등학교까지 태권도와 합기도 선수로 활동했으며
+                    프론트엔드 개발자로 성장하고자 하는 박성호입니다.
+                    고등학교까지 태권도와 합기도 선수로 활동했으며
                     특히 합기도는 비주류 종목이지만 세계 대회에 국가대표로 출전한 경험이 있습니다.
                     그러나 중간에 부상으로 인해 운동을 그만두게 되었고, 이후 용접 일을 시작했습니다.
                     건강상의 문제로 그 일을 지속할 수 없게 되어 새로운 진로를 모색하게 되었습니다.
@@ -23,14 +23,15 @@ export default function Profile() {
                     이를 계기로 AICC 과정을 통해 보다 깊이 있는 학습을 이어갔고
                     그 중에서도 프론트엔드 분야가 저에게 잘 맞는다는 것을 알게 되어 프론트엔드 개발자로서의 진로를 확고히 다지게 되었습니다.
                 </p>
-                <div className="">
-                    생년월일 : 1998.01.12
-                    휴대폰번호 : 01055387311
-                    이메일 : psh676@gmail.com
-                    거주지 : 인천 서구
-                    연령 : 만26세
+                <div className="profile_info">
+                    <div className="profile_birthday">생년월일 : 1998.01.12</div>
+                    <div className="profile_phone_number">휴대폰번호 : 01055387311</div>
+                    <div className="profile_email">이메일 : psh676@gmail.com</div>
+                    <div className="profile_address">거주지 : 인천 서구</div>
+                    <div className="profile_age">연령 : 만27세</div>
+                    <div className="profile_sns">github : <a href="https://github.com/112park">https://github.com/112park</a></div>
                 </div>
-                <button>이력서</button>
+                <button className="profile_resume">이력서다운로드</button>
             </div>
         </div>
     )
