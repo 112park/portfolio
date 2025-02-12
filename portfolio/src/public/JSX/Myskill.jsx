@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "../CSS/myskill.css";
-import emot from "../IMG/emot.png";
 
 export default function Myskill() {
   useEffect(() => {

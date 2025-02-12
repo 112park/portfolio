@@ -1,6 +1,8 @@
 import React from "react";
 import '../CSS/contact.css';
-import qrCode from "../IMG/emot.png"; // QR 코드 이미지 (예시)
+import qrCode1 from "../IMG/qrcode1.png";
+import qrCode2 from "../IMG/qrcode2.png";
+
 
 export default function Contact() {
     return (
@@ -28,11 +30,11 @@ export default function Contact() {
                 <div className="qr-container">
                     <div className="qr-box">
                         <label>이력서</label>
-                        <img src={qrCode} alt="이력서 QR Code" />
+                        <img src={qrCode1} alt="이력서 QR Code" />
                     </div>
                     <div className="qr-box">
                         <label>연락처</label>
-                        <img src={qrCode} alt="연락처 QR Code" />
+                        <img src={qrCode2} alt="연락처 QR Code" />
                     </div>
                 </div>
             </div>
